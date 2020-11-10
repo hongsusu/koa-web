@@ -1,0 +1,171 @@
+@import "../base.less";
+.footer-static {
+position: static;
+}
+.footer-fixed {
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 46px;
+  padding-top: 46px;
+  background: @livieMainBgColor;
+}
+.footer{
+  input:disabled {
+    color: rgb(84, 84, 84);
+    cursor: default;
+    background-color: transparent;
+  }
+  //position: fixed;
+  width: 100%;
+  //bottom: 0;
+  //background: red;
+ //height: 80px;
+  .footer-wrap-group {
+
+    width: 100%;
+    z-index:1000;
+    //background: #fff;
+
+  }
+  .footer-wrap{
+    //height: 80px;
+    //position: relative;
+    z-index: 1001;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-button{
+    width:580px;
+    height: 88px;
+    background:@mainBgColor;
+    border-radius:54px;
+    z-index:4 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-share {
+    z-index: 10001 !important;
+    cursor: pointer;
+    margin-left: 57px;
+    margin-right: 36px;
+
+  }
+  .footer-share img{
+    position: relative;
+    width: 48px;
+    height: 48px;
+  }
+  .tip-iconcontent {
+  position: relative;
+}
+  .tip-wrap{
+    padding: 5px 0;
+    /* 垂直居中 */
+    position: absolute;
+    bottom: 78px;
+    //transform: translateY(-50%);
+    background-color: transparent;
+    left: -12px;
+    z-index: 1;
+  }
+  .tip {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: @mainPageBgColor;
+    font-size:24px;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:@mainDefaultColor;
+    line-height:33px;
+    width:220px;
+    box-shadow:4px 4px 12px 0px @lessonItemShadowColor;
+  }
+
+  .share-font{
+    font-size:24px;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:33px;
+  }
+  .question-font{
+    font-size:30px;
+    font-family:PingFangSC-Medium,PingFang SC;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:42px;
+  }
+  .footer-question-box {
+    width:580px;
+    height:80px;
+    background:@mainPageBgColor;
+    border-radius:54px;
+    border:1px solid rgba(238,238,238,1);
+    display: flex;
+    align-items: center;
+    margin-right: 29px;
+    padding-right: 35px;
+  }
+  .footer-question-box img{
+    width: 24px;
+    height: 24px;
+    margin-left: 41px;
+  }
+  .question-box-input{
+    font-size:26px;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:@mainDefaultColor;
+    line-height:37px;
+    border-style: none;
+    outline:none;
+    width: 501px;
+    margin-left: 41px;
+  }
+  .item {
+    position: absolute;
+    left: 16px;
+    bottom: -10px;
+  }
+  /* 向下的箭头 */
+  .dot-bottom {
+    font-size: 0;
+    line-height: 0;
+    border-width: 16px;
+    border-color: @mainPageBgColor;
+    border-bottom-width: 0;
+    border-style: dashed;
+    border-top-style: solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  .tip-tool-item {
+    display: flex;
+    justify-content: left;
+    margin-top: 14px;
+    margin-bottom: 13px;
+  }
+  .tip-tool-item img{
+    width: 24px;
+    height: 28px;
+    margin-right: 12px;
+  }
+  .send-message{
+    //position: fixed;
+    //right: 35px;
+    //z-index: 100001;
+  }
+  .send-message img{
+    width: 40px;
+    height: 38px;
+    margin-left: 0px !important;
+  }
+
+
+
+}

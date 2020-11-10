@@ -1,0 +1,423 @@
+@import "../../base.less";
+.form{
+  background:@mainPageBgColor;
+  .form-banner {
+    width: 100%;
+    height: 130px;
+    margin: auto;
+  }
+  .form-bannerbox{
+    padding-top: 86px;
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+  .banner {
+    margin-bottom: 5px;
+    height: 120px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .form-countflagbox {
+    background: #fff;
+    display: flex;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 28px;
+    padding-right: 28px;
+    justify-content: center;
+  }
+  .form-countflag {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 40px;
+    height: 80px;
+    background: #ffffff;
+    border-radius: 50px;
+    box-shadow: 4px 8px 48px 0px rgba(0,0,0,0.1);
+    font-size: 24px;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #333333;
+    width: 100%;
+  }
+  .form-countflag-img {
+    width: 32px;
+    height: 32px;
+    margin-right: 14px;
+  }
+  .form-countflag-number {
+    color: rgba(245,108,108,1);
+  }
+  .list-barbox-con {
+    padding-left: 28px;
+    padding-right: 28px;
+    box-sizing: border-box;
+    margin-bottom: 60px;
+  }
+  .list-barbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    box-sizing: border-box;
+    height: 80px;
+    border-radius: 50px;
+    padding-right: 40px;
+    padding-left: 40px;
+    box-shadow: 4px 8px 48px 0px rgba(0,0,0,0.1);
+  }
+  .list-barbox-one {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    box-sizing: border-box;
+    height: 380px;
+    padding-right: 40px;
+    padding-left: 40px;
+    box-shadow: 4px 8px 48px 0px rgba(0,0,0,0.1);
+  }
+  .form-list-title {
+    margin-bottom: 15px;
+    margin-top: 30px;
+    font-size: 32px;
+    font-family: PingFangSC, PingFangSC-Medium;
+    font-weight: 500;
+    text-align: center;
+    color: #333333;
+  }
+  .list-bar {
+    width: 614px;
+    display: flex;
+    height: 80px;
+    background: #ffffff;
+    font-size: 28px;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #333333;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .list-bar-one {
+    width: 614px;
+    display: flex;
+    height: 390px;
+    background: #ffffff;
+    font-size: 28px;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #333333;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .list-bar-two {
+    width: 614px;
+    display: flex;
+    background: #ffffff;
+    font-size: 28px;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #333333;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 76px;
+  }
+  .list-bar-onebox {
+    display: flex;
+    flex-direction: column;
+  }
+  .list-barleft {
+    display: flex;
+    align-items: center;
+  }
+  .list-bar-icon {
+    width: 36px;
+    height: 36px;
+    margin-right: 12px;
+  }
+  .form-btn-box {
+    padding-right: 28px;
+    padding-left: 28px;
+    margin-top: 30px;
+  }
+  .form-btn {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background: #3879fb;
+    border-radius: 4px;
+    font-size: 28px;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+  }
+  //input
+  .input-box {
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
+    margin-right: 32px;
+    border-bottom: 1Px solid #f9f9f9;
+    line-height: 20px;
+    height: 104px;
+    input {
+      height: 100px;
+      flex: 1;
+      font-size: 32px;
+      font-family: PingFangSC-Regular,PingFang SC;
+      color: #999;
+      border: 0 none;
+    }
+    input::-webkit-input-placeholder {
+      /* WebKit browsers */
+      color: #999;
+    }
+    input:-moz-placeholder {
+      /* Mozilla Firefox 4 to 18 */
+      color: #999;
+    }
+    input::-moz-placeholder {
+      /* Mozilla Firefox 19+ */
+      color: #999;
+    }
+    input:-ms-input-placeholder {
+      /* Internet Explorer 10+ */
+      color: #999;
+    }
+  }
+  //详细地址
+  .detailAddress {
+    resize: none;
+    height: 140px;
+    font-size: 32px;
+    font-family: PingFangSC-Regular,PingFang SC;
+    color: #999;
+    border: 0 none;
+    margin-bottom: 32px;
+    line-height: 1.4;
+  }
+  .input-boxthree {
+    align-items: flex-start;
+    margin-left: 32px;
+    margin-right: 32px;
+    border-bottom: 1px solid #f9f9f9;
+    padding-top: 32px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #f9f9f9;
+    line-height: 20px;
+    display: flex;
+  }
+  .input-box-textthree {
+    font-size: 32px;
+    font-family: PingFangSC-Regular,PingFang SC;
+    font-weight: 400;
+    color: #000;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+  }
+  .citytext {
+    color: #999;
+    font-size: 32px;
+    font-family: PingFangSC-Regular,PingFang SC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+  }
+  .closearrow {
+    width: 40px;
+    height: 40px;
+  }
+  //textare
+  .input-boxone {
+    margin-left: 32px;
+    margin-right: 32px;
+    border-bottom: 1Px solid #f9f9f9;
+    textarea {
+      resize: none;
+      height: 272px;
+      width: 100%;
+      font-size: 32px;
+      font-family: PingFangSC-Regular,PingFang SC;
+      color: #999;
+      border: 1Px solid #f1f1f1;
+      margin-top: 20px;
+      margin-bottom: 32px;
+    }
+    input::-webkit-input-placeholder {
+      /* WebKit browsers */
+      color: #999;
+    }
+    input:-moz-placeholder {
+      /* Mozilla Firefox 4 to 18 */
+      color: #999;
+    }
+    input::-moz-placeholder {
+      /* Mozilla Firefox 19+ */
+      color: #999;
+    }
+    input:-ms-input-placeholder {
+      /* Internet Explorer 10+ */
+      color: #999;
+    }
+  }
+  .input-box-text {
+    font-size: 32px;
+    font-family: PingFangSC-Regular,PingFang SC;
+    font-weight: 400;
+    color: #000;
+    width: 220px;
+    display: flex;
+    align-items: center;
+  }
+  .input-box-textone {
+    font-size: 32px;
+    font-family: PingFangSC-Regular,PingFang SC;
+    font-weight: 400;
+    color: #000;
+    width: 220px;
+    display: flex;
+    margin-top: 32px;
+    align-items: center;
+  }
+  .input-box-text-vali {
+    display: inline-block;
+    width: 60px;
+    margin-left: 8px;
+    font-size: 28px;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #f56c6c;
+  }
+  .input-box-text-valiaddr {
+    display: inline-block;
+    width: 40px;
+    margin-left: 8px;
+    font-size: 28px;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #f56c6c;
+  }
+  //单选框
+  .input-boxtwo {
+    align-items: flex-start;
+    margin-left: 32px;
+    margin-right: 32px;
+    border-bottom: 1Px solid #f9f9f9;
+    padding-top: 32px;
+    padding-bottom: 4px;
+    border-bottom: 1Px solid #f9f9f9;
+    line-height: 20px;
+    display: flex;
+    .van-icon {
+      width: 18px;
+      height: 18px;
+      display: flex;
+      align-items: center;
+      margin-top: 1px;
+    }
+    .van-radio {
+      margin-bottom: 15px;
+    }
+    .van-radio__label {
+      font-size: 16px;
+      font-family: PingFangSC-Regular,PingFang SC;
+      font-weight: 400;
+      color: #999;
+    }
+  }
+  .input-box-textradio {
+    font-size: 32px;
+    font-family: PingFangSC-Regular,PingFang SC;
+    font-weight: 400;
+    color: #000;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  //性别
+  .sex-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 260px;
+    .options {
+      font-size: 32px;
+      font-family: PingFangSC-Regular,PingFang SC;
+      font-weight: 400;
+      color: #999;
+      line-height: 20px;
+      display: flex;
+      align-items: center;
+      img {
+        width: 40px;
+        height: 40px;
+        margin-right: 8px;
+      }
+      //&:first-child i {
+      //  background-image: url(../../../../assets/images/views/pages/form/boy.svg);
+      //}
+      //&:nth-child(2) i {
+      //  background-image: url(../../../../assets/images/views/pages/form/girl.svg);
+      //}
+    }
+    i {
+      display: block;
+      width: 40px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      margin-right: 8px;
+    }
+  }
+  //表单说明
+  .input-comment {
+    font-size: 32px;
+    font-family: PingFangSC-Regular,PingFang SC;
+    font-weight: 400;
+    color: #999;
+    line-height: 40px;
+    padding: 32px;
+    background: #f9f9f9;
+  }
+  .picker-toolbar {
+    height: 88px;
+  }
+  .mint-datetime-action {
+    font-size: 28px;
+    height: 88px;
+    line-height: 88px;
+    color: #1989fa;
+  }
+  .mint-datetime-cancel {
+    text-align: left;
+    padding-left: 32px;
+    box-sizing: border-box;
+  }
+  .mint-datetime-confirm {
+    text-align: right;
+    padding-right: 32px;
+    box-sizing: border-box;
+  }
+  .picker-item {
+    color: #000;
+    font-size: 32px;
+  }
+}
