@@ -1,5 +1,4 @@
 import services from "../tools/services/services";
-// import services from "wk-bz-common/src/services/services";
 
 export default {
   /**

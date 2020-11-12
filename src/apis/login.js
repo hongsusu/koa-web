@@ -5,7 +5,7 @@ export default {
      * @param params
      */
     login(params) {
-        return services.post(`${process.env.VUE_APP_API}api/users/register`,params,  {
+        return services.post(`${process.env.VUE_APP_API}users/register`,params,  {
             action: "注册"
         });
     },

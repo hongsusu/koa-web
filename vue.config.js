@@ -21,10 +21,6 @@ module.exports = {
                     pathRewrite: {
                       '^/edu/': ''
                     }
-                },
-                '/wx/': {
-                    target: 'http://edu.jingyujiazhang.cn/api/',
-                    changeOrigin: true,//这里设置是否跨域
                 }
             }
         },
