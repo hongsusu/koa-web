@@ -120,7 +120,7 @@
     </div>
     <!--提交按钮-->
     <div class="form-btn-box">
-      <div class="form-btn" @click="post">{{form.btnText}}</div>
+      <div class="form-btn" @click="post">111111{{form.btnText}}</div>
     </div>
     <!--列表-->
     <div class="form-list" v-if="form.signUpFlag">
